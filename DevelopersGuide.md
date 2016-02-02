@@ -20,6 +20,11 @@ If you get some incidents with this then execute the following:
 mvn compile exec:java -Dexec.mainClass="org.kurento.tutorial.metadata.MetadataHandler"
 ```
 
+Browse to the:
+```bash
+https://127.0.0.1:8443
+```
+
 The following folder contains temperature demo where temperature values are currently generated inside module but could also utilize data pads but also data channels have been investigated
 ```bash
 msdatademos/datachannel
@@ -35,3 +40,7 @@ If you get some incidents with this then execute the following:
 mvn compile exec:java -Dexec.mainClass="org.kurento.tutorial.showdatachannel.ShowDataChannelHandler"
 ```
 
+Browse to the:
+```bash
+https://127.0.0.1:8443
+```
