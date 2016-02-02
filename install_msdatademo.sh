@@ -14,7 +14,7 @@ echo @author Markus Ylikerala, VTT, http://www.vtt.fi/
 # default is ~/nubomedia
 #######################################
 USER_HOME=$(eval echo ~${SUDO_USER})
-TARGET=${USER_HOME}/nubomedia
+TARGET=${USER_HOME}/nubomedia_msdata
 mkdir -p $TARGET
 
 
